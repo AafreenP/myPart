@@ -1,0 +1,17 @@
+<h1>
+    Data
+</h1>
+<table>
+    <tr>
+        <th>Answer</th>
+        <th>Similarity Index</th>
+        <th>Facial Expression Value</th>
+    </tr>
+    {{#each data}}
+    <tr>
+        <td>{{this.Answer}}</td>
+        <td>{{this.SimilarityIndex}}</td>
+        <td>{{this.FacialExpressionValue}}</td>
+    </tr>
+    {{/each}}
+</table>
